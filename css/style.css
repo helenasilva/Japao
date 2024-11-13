@@ -1,0 +1,131 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
+}    
+
+nav {
+    width: 100%;
+    backface-visibility: hidden;
+    z-index: 10; 
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+body{
+    background-color: #e393a6;
+    color: #950323;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1{
+    color: #791f34;
+   
+}
+h2{
+    color: #72041c;
+}
+
+.tt{
+    border-radius: 100px;
+    display: flex;
+}
+.toquio{
+    background-color: #791f34;
+    display: block;
+    justify-content: center;
+    width: 200px;
+    height: 450px;
+    padding: 20px;
+    border: solid;
+    border-radius: 15px;
+}
+
+.os{
+    border-radius: 100px;
+    display: flex;
+    text-align: center;
+}
+.osaka{
+    background-color: #791f34;
+    display: block;
+    justify-content: center;
+    width: 200px;
+    height: 450px;
+    padding: 20px;
+    border: solid;
+    border-radius: 15px;
+}
+.oki{
+    border-radius: 100px;
+       
+}
+.okinawa{
+    background-color: #791f34;
+    display: block;
+    justify-content: center;
+    width: 200px;
+    height: 450px;
+    padding: 20px;
+    border: solid;
+    border-radius: 15px;
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+section {
+    text-align: center; 
+    margin-top: 100px;
+    margin: 10px; /* Adiciona um espaço entre as seções */
+    color: #e393a6;
+    font-weight: bold;
+}
+a{
+    background-color: #e393a6;
+    color: #f3c8d4;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    transition: transform 0.5s ease;
+}
+a:hover{
+    background-color: rgb(241, 228, 241);
+    transform: scale(1.05);
+}
+footer{
+    display: flexbox;
+    
+}
+.inicio {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #ffffff; 
+    background-color: #bc042c; 
+    transform: scale(1.05);
+    transition: background-color 0.3s; 
+}
